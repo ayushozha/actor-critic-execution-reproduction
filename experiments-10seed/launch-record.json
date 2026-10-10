@@ -1,0 +1,451 @@
+{
+  "started_utc": "2026-10-10T18:56:06.383809+00:00",
+  "finished_utc": "2026-10-10T18:57:49.428131+00:00",
+  "elapsed_seconds": 103.04432249069214,
+  "result": "completed",
+  "parallel_child_limit": 4,
+  "administrative_python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "scientific_python": "C:\\Users\\ayush\\Desktop\\Research Papers\\Deep Actor\u2013Critic Methods for Optimal Trade Execution Under Uncertain Market Impact\\runtime\\python366\\python.exe",
+  "records": [
+    {
+      "job": [
+        "ddpg",
+        "nominal",
+        89
+      ],
+      "command": [
+        "C:\\Users\\ayush\\Desktop\\Research Papers\\Deep Actor\u2013Critic Methods for Optimal Trade Execution Under Uncertain Market Impact\\runtime\\python366\\python.exe",
+        "C:\\Users\\ayush\\Desktop\\Research Papers\\Deep Actor\u2013Critic Methods for Optimal Trade Execution Under Uncertain Market Impact\\experiments-10seed\\execution_study.py",
+        "train",
+        "--algorithm",
+        "ddpg",
+        "--regime",
+        "nominal",
+        "--seed",
+        "89"
+      ],
+      "exit_code": 0,
+      "log": "experiments-10seed\\launch-logs\\ddpg_nominal_seed89.txt"
+    },
+    {
+      "job": [
+        "ddpg",
+        "randomized",
+        89
+      ],
+      "command": [
+        "C:\\Users\\ayush\\Desktop\\Research Papers\\Deep Actor\u2013Critic Methods for Optimal Trade Execution Under Uncertain Market Impact\\runtime\\python366\\python.exe",
+        "C:\\Users\\ayush\\Desktop\\Research Papers\\Deep Actor\u2013Critic Methods for Optimal Trade Execution Under Uncertain Market Impact\\experiments-10seed\\execution_study.py",
+        "train",
+        "--algorithm",
+        "ddpg",
+        "--regime",
+        "randomized",
+        "--seed",
+        "89"
+      ],
+      "exit_code": 0,
+      "log": "experiments-10seed\\launch-logs\\ddpg_randomized_seed89.txt"
+    },
+    {
+      "job": [
+        "td3",
+        "randomized",
+        89
+      ],
+      "command": [
+        "C:\\Users\\ayush\\Desktop\\Research Papers\\Deep Actor\u2013Critic Methods for Optimal Trade Execution Under Uncertain Market Impact\\runtime\\python366\\python.exe",
+        "C:\\Users\\ayush\\Desktop\\Research Papers\\Deep Actor\u2013Critic Methods for Optimal Trade Execution Under Uncertain Market Impact\\experiments-10seed\\execution_study.py",
+        "train",
+        "--algorithm",
+        "td3",
+        "--regime",
+        "randomized",
+        "--seed",
+        "89"
+      ],
+      "exit_code": 0,
+      "log": "experiments-10seed\\launch-logs\\td3_randomized_seed89.txt"
+    },
+    {
+      "job": [
+        "td3",
+        "nominal",
+        89
+      ],
+      "command": [
+        "C:\\Users\\ayush\\Desktop\\Research Papers\\Deep Actor\u2013Critic Methods for Optimal Trade Execution Under Uncertain Market Impact\\runtime\\python366\\python.exe",
+        "C:\\Users\\ayush\\Desktop\\Research Papers\\Deep Actor\u2013Critic Methods for Optimal Trade Execution Under Uncertain Market Impact\\experiments-10seed\\execution_study.py",
+        "train",
+        "--algorithm",
+        "td3",
+        "--regime",
+        "nominal",
+        "--seed",
+        "89"
+      ],
+      "exit_code": 0,
+      "log": "experiments-10seed\\launch-logs\\td3_nominal_seed89.txt"
+    },
+    {
+      "job": [
+        "ddpg",
+        "nominal",
+        107
+      ],
+      "command": [
+        "C:\\Users\\ayush\\Desktop\\Research Papers\\Deep Actor\u2013Critic Methods for Optimal Trade Execution Under Uncertain Market Impact\\runtime\\python366\\python.exe",
+        "C:\\Users\\ayush\\Desktop\\Research Papers\\Deep Actor\u2013Critic Methods for Optimal Trade Execution Under Uncertain Market Impact\\experiments-10seed\\execution_study.py",
+        "train",
+        "--algorithm",
+        "ddpg",
+        "--regime",
+        "nominal",
+        "--seed",
+        "107"
+      ],
+      "exit_code": 0,
+      "log": "experiments-10seed\\launch-logs\\ddpg_nominal_seed107.txt"
+    },
+    {
+      "job": [
+        "ddpg",
+        "randomized",
+        107
+      ],
+      "command": [
+        "C:\\Users\\ayush\\Desktop\\Research Papers\\Deep Actor\u2013Critic Methods for Optimal Trade Execution Under Uncertain Market Impact\\runtime\\python366\\python.exe",
+        "C:\\Users\\ayush\\Desktop\\Research Papers\\Deep Actor\u2013Critic Methods for Optimal Trade Execution Under Uncertain Market Impact\\experiments-10seed\\execution_study.py",
+        "train",
+        "--algorithm",
+        "ddpg",
+        "--regime",
+        "randomized",
+        "--seed",
+        "107"
+      ],
+      "exit_code": 0,
+      "log": "experiments-10seed\\launch-logs\\ddpg_randomized_seed107.txt"
+    },
+    {
+      "job": [
+        "td3",
+        "nominal",
+        107
+      ],
+      "command": [
+        "C:\\Users\\ayush\\Desktop\\Research Papers\\Deep Actor\u2013Critic Methods for Optimal Trade Execution Under Uncertain Market Impact\\runtime\\python366\\python.exe",
+        "C:\\Users\\ayush\\Desktop\\Research Papers\\Deep Actor\u2013Critic Methods for Optimal Trade Execution Under Uncertain Market Impact\\experiments-10seed\\execution_study.py",
+        "train",
+        "--algorithm",
+        "td3",
+        "--regime",
+        "nominal",
+        "--seed",
+        "107"
+      ],
+      "exit_code": 0,
+      "log": "experiments-10seed\\launch-logs\\td3_nominal_seed107.txt"
+    },
+    {
+      "job": [
+        "td3",
+        "randomized",
+        107
+      ],
+      "command": [
+        "C:\\Users\\ayush\\Desktop\\Research Papers\\Deep Actor\u2013Critic Methods for Optimal Trade Execution Under Uncertain Market Impact\\runtime\\python366\\python.exe",
+        "C:\\Users\\ayush\\Desktop\\Research Papers\\Deep Actor\u2013Critic Methods for Optimal Trade Execution Under Uncertain Market Impact\\experiments-10seed\\execution_study.py",
+        "train",
+        "--algorithm",
+        "td3",
+        "--regime",
+        "randomized",
+        "--seed",
+        "107"
+      ],
+      "exit_code": 0,
+      "log": "experiments-10seed\\launch-logs\\td3_randomized_seed107.txt"
+    },
+    {
+      "job": [
+        "ddpg",
+        "nominal",
+        127
+      ],
+      "command": [
+        "C:\\Users\\ayush\\Desktop\\Research Papers\\Deep Actor\u2013Critic Methods for Optimal Trade Execution Under Uncertain Market Impact\\runtime\\python366\\python.exe",
+        "C:\\Users\\ayush\\Desktop\\Research Papers\\Deep Actor\u2013Critic Methods for Optimal Trade Execution Under Uncertain Market Impact\\experiments-10seed\\execution_study.py",
+        "train",
+        "--algorithm",
+        "ddpg",
+        "--regime",
+        "nominal",
+        "--seed",
+        "127"
+      ],
+      "exit_code": 0,
+      "log": "experiments-10seed\\launch-logs\\ddpg_nominal_seed127.txt"
+    },
+    {
+      "job": [
+        "ddpg",
+        "randomized",
+        127
+      ],
+      "command": [
+        "C:\\Users\\ayush\\Desktop\\Research Papers\\Deep Actor\u2013Critic Methods for Optimal Trade Execution Under Uncertain Market Impact\\runtime\\python366\\python.exe",
+        "C:\\Users\\ayush\\Desktop\\Research Papers\\Deep Actor\u2013Critic Methods for Optimal Trade Execution Under Uncertain Market Impact\\experiments-10seed\\execution_study.py",
+        "train",
+        "--algorithm",
+        "ddpg",
+        "--regime",
+        "randomized",
+        "--seed",
+        "127"
+      ],
+      "exit_code": 0,
+      "log": "experiments-10seed\\launch-logs\\ddpg_randomized_seed127.txt"
+    },
+    {
+      "job": [
+        "td3",
+        "nominal",
+        127
+      ],
+      "command": [
+        "C:\\Users\\ayush\\Desktop\\Research Papers\\Deep Actor\u2013Critic Methods for Optimal Trade Execution Under Uncertain Market Impact\\runtime\\python366\\python.exe",
+        "C:\\Users\\ayush\\Desktop\\Research Papers\\Deep Actor\u2013Critic Methods for Optimal Trade Execution Under Uncertain Market Impact\\experiments-10seed\\execution_study.py",
+        "train",
+        "--algorithm",
+        "td3",
+        "--regime",
+        "nominal",
+        "--seed",
+        "127"
+      ],
+      "exit_code": 0,
+      "log": "experiments-10seed\\launch-logs\\td3_nominal_seed127.txt"
+    },
+    {
+      "job": [
+        "td3",
+        "randomized",
+        127
+      ],
+      "command": [
+        "C:\\Users\\ayush\\Desktop\\Research Papers\\Deep Actor\u2013Critic Methods for Optimal Trade Execution Under Uncertain Market Impact\\runtime\\python366\\python.exe",
+        "C:\\Users\\ayush\\Desktop\\Research Papers\\Deep Actor\u2013Critic Methods for Optimal Trade Execution Under Uncertain Market Impact\\experiments-10seed\\execution_study.py",
+        "train",
+        "--algorithm",
+        "td3",
+        "--regime",
+        "randomized",
+        "--seed",
+        "127"
+      ],
+      "exit_code": 0,
+      "log": "experiments-10seed\\launch-logs\\td3_randomized_seed127.txt"
+    },
+    {
+      "job": [
+        "ddpg",
+        "nominal",
+        149
+      ],
+      "command": [
+        "C:\\Users\\ayush\\Desktop\\Research Papers\\Deep Actor\u2013Critic Methods for Optimal Trade Execution Under Uncertain Market Impact\\runtime\\python366\\python.exe",
+        "C:\\Users\\ayush\\Desktop\\Research Papers\\Deep Actor\u2013Critic Methods for Optimal Trade Execution Under Uncertain Market Impact\\experiments-10seed\\execution_study.py",
+        "train",
+        "--algorithm",
+        "ddpg",
+        "--regime",
+        "nominal",
+        "--seed",
+        "149"
+      ],
+      "exit_code": 0,
+      "log": "experiments-10seed\\launch-logs\\ddpg_nominal_seed149.txt"
+    },
+    {
+      "job": [
+        "ddpg",
+        "randomized",
+        149
+      ],
+      "command": [
+        "C:\\Users\\ayush\\Desktop\\Research Papers\\Deep Actor\u2013Critic Methods for Optimal Trade Execution Under Uncertain Market Impact\\runtime\\python366\\python.exe",
+        "C:\\Users\\ayush\\Desktop\\Research Papers\\Deep Actor\u2013Critic Methods for Optimal Trade Execution Under Uncertain Market Impact\\experiments-10seed\\execution_study.py",
+        "train",
+        "--algorithm",
+        "ddpg",
+        "--regime",
+        "randomized",
+        "--seed",
+        "149"
+      ],
+      "exit_code": 0,
+      "log": "experiments-10seed\\launch-logs\\ddpg_randomized_seed149.txt"
+    },
+    {
+      "job": [
+        "td3",
+        "nominal",
+        149
+      ],
+      "command": [
+        "C:\\Users\\ayush\\Desktop\\Research Papers\\Deep Actor\u2013Critic Methods for Optimal Trade Execution Under Uncertain Market Impact\\runtime\\python366\\python.exe",
+        "C:\\Users\\ayush\\Desktop\\Research Papers\\Deep Actor\u2013Critic Methods for Optimal Trade Execution Under Uncertain Market Impact\\experiments-10seed\\execution_study.py",
+        "train",
+        "--algorithm",
+        "td3",
+        "--regime",
+        "nominal",
+        "--seed",
+        "149"
+      ],
+      "exit_code": 0,
+      "log": "experiments-10seed\\launch-logs\\td3_nominal_seed149.txt"
+    },
+    {
+      "job": [
+        "td3",
+        "randomized",
+        149
+      ],
+      "command": [
+        "C:\\Users\\ayush\\Desktop\\Research Papers\\Deep Actor\u2013Critic Methods for Optimal Trade Execution Under Uncertain Market Impact\\runtime\\python366\\python.exe",
+        "C:\\Users\\ayush\\Desktop\\Research Papers\\Deep Actor\u2013Critic Methods for Optimal Trade Execution Under Uncertain Market Impact\\experiments-10seed\\execution_study.py",
+        "train",
+        "--algorithm",
+        "td3",
+        "--regime",
+        "randomized",
+        "--seed",
+        "149"
+      ],
+      "exit_code": 0,
+      "log": "experiments-10seed\\launch-logs\\td3_randomized_seed149.txt"
+    },
+    {
+      "job": [
+        "ddpg",
+        "nominal",
+        173
+      ],
+      "command": [
+        "C:\\Users\\ayush\\Desktop\\Research Papers\\Deep Actor\u2013Critic Methods for Optimal Trade Execution Under Uncertain Market Impact\\runtime\\python366\\python.exe",
+        "C:\\Users\\ayush\\Desktop\\Research Papers\\Deep Actor\u2013Critic Methods for Optimal Trade Execution Under Uncertain Market Impact\\experiments-10seed\\execution_study.py",
+        "train",
+        "--algorithm",
+        "ddpg",
+        "--regime",
+        "nominal",
+        "--seed",
+        "173"
+      ],
+      "exit_code": 0,
+      "log": "experiments-10seed\\launch-logs\\ddpg_nominal_seed173.txt"
+    },
+    {
+      "job": [
+        "ddpg",
+        "randomized",
+        173
+      ],
+      "command": [
+        "C:\\Users\\ayush\\Desktop\\Research Papers\\Deep Actor\u2013Critic Methods for Optimal Trade Execution Under Uncertain Market Impact\\runtime\\python366\\python.exe",
+        "C:\\Users\\ayush\\Desktop\\Research Papers\\Deep Actor\u2013Critic Methods for Optimal Trade Execution Under Uncertain Market Impact\\experiments-10seed\\execution_study.py",
+        "train",
+        "--algorithm",
+        "ddpg",
+        "--regime",
+        "randomized",
+        "--seed",
+        "173"
+      ],
+      "exit_code": 0,
+      "log": "experiments-10seed\\launch-logs\\ddpg_randomized_seed173.txt"
+    },
+    {
+      "job": [
+        "td3",
+        "nominal",
+        173
+      ],
+      "command": [
+        "C:\\Users\\ayush\\Desktop\\Research Papers\\Deep Actor\u2013Critic Methods for Optimal Trade Execution Under Uncertain Market Impact\\runtime\\python366\\python.exe",
+        "C:\\Users\\ayush\\Desktop\\Research Papers\\Deep Actor\u2013Critic Methods for Optimal Trade Execution Under Uncertain Market Impact\\experiments-10seed\\execution_study.py",
+        "train",
+        "--algorithm",
+        "td3",
+        "--regime",
+        "nominal",
+        "--seed",
+        "173"
+      ],
+      "exit_code": 0,
+      "log": "experiments-10seed\\launch-logs\\td3_nominal_seed173.txt"
+    },
+    {
+      "job": [
+        "td3",
+        "randomized",
+        173
+      ],
+      "command": [
+        "C:\\Users\\ayush\\Desktop\\Research Papers\\Deep Actor\u2013Critic Methods for Optimal Trade Execution Under Uncertain Market Impact\\runtime\\python366\\python.exe",
+        "C:\\Users\\ayush\\Desktop\\Research Papers\\Deep Actor\u2013Critic Methods for Optimal Trade Execution Under Uncertain Market Impact\\experiments-10seed\\execution_study.py",
+        "train",
+        "--algorithm",
+        "td3",
+        "--regime",
+        "randomized",
+        "--seed",
+        "173"
+      ],
+      "exit_code": 0,
+      "log": "experiments-10seed\\launch-logs\\td3_randomized_seed173.txt"
+    },
+    {
+      "command": [
+        "C:\\Users\\ayush\\Desktop\\Research Papers\\Deep Actor\u2013Critic Methods for Optimal Trade Execution Under Uncertain Market Impact\\runtime\\python366\\python.exe",
+        "C:\\Users\\ayush\\Desktop\\Research Papers\\Deep Actor\u2013Critic Methods for Optimal Trade Execution Under Uncertain Market Impact\\experiments-10seed\\execution_study.py",
+        "evaluate"
+      ],
+      "exit_code": 0
+    },
+    {
+      "command": [
+        "C:\\Users\\ayush\\Desktop\\Research Papers\\Deep Actor\u2013Critic Methods for Optimal Trade Execution Under Uncertain Market Impact\\runtime\\python366\\python.exe",
+        "C:\\Users\\ayush\\Desktop\\Research Papers\\Deep Actor\u2013Critic Methods for Optimal Trade Execution Under Uncertain Market Impact\\experiments-10seed\\analyze_results.py"
+      ],
+      "exit_code": 1
+    }
+  ],
+  "launcher_sha256": "7356365a66765e06f8dea6d0050d59c61d6097c405fd9ee78a0c41d4e79a7030",
+  "recovered_utc": "2026-10-10T18:59:50.927946+00:00",
+  "original_first_attempt_result": "failed_analyze_results.py",
+  "original_first_attempt_elapsed_seconds": 103.04432249069214,
+  "recovery_note": "Initial analysis resolved the parent module because embedded Python has a fixed import path. Extension analysis and verification explicitly select the byte-identical copied module. No training or evaluation was rerun; no seed or hyperparameter was changed.",
+  "scientific_analysis_receipt": "experiments-10seed/analysis-execution-record.json",
+  "extension_verification": "experiments-10seed/extension-verification.json",
+  "recovery_steps": [
+    {
+      "command": [
+        "C:\\Users\\ayush\\Desktop\\Research Papers\\Deep Actor\u2013Critic Methods for Optimal Trade Execution Under Uncertain Market Impact\\runtime\\python366\\python.exe",
+        "C:\\Users\\ayush\\Desktop\\Research Papers\\Deep Actor\u2013Critic Methods for Optimal Trade Execution Under Uncertain Market Impact\\experiments-10seed\\analyze_results.py"
+      ],
+      "exit_code": 0,
+      "receipt": "analysis-execution-record.json"
+    },
+    {
+      "command": [
+        "C:\\Users\\ayush\\Desktop\\Research Papers\\Deep Actor\u2013Critic Methods for Optimal Trade Execution Under Uncertain Market Impact\\runtime\\python366\\python.exe",
+        "C:\\Users\\ayush\\Desktop\\Research Papers\\Deep Actor\u2013Critic Methods for Optimal Trade Execution Under Uncertain Market Impact\\experiments-10seed\\verify_extension.py"
+      ],
+      "exit_code": 0,
+      "receipt": "extension-verification.json"
+    }
+  ]
+}

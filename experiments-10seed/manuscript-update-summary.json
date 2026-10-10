@@ -1,0 +1,601 @@
+{
+  "computed_utc": "2026-10-10T18:59:33.822300+00:00",
+  "cross_algorithm_secondary": [
+    {
+      "ci95_lower": -0.037559452302488874,
+      "ci95_upper": 0.003236827072732266,
+      "ci_method": "paired training-seed t interval df=9",
+      "comparison": "td3_minus_ddpg_nominal",
+      "mean": -0.017161312614878306,
+      "scenario_weighting": "equal seven nonnominal scenarios",
+      "seed_count": 10,
+      "seed_sd": 0.028514633068969144,
+      "seed_values": [
+        0.002163189898437584,
+        -0.028581410449785776,
+        -0.027227209302915584,
+        0.010930772326610395,
+        -0.0051035955099275965,
+        -0.00903420022959693,
+        -0.0848701375945762,
+        0.0042655629226518565,
+        0.0012026484819459996,
+        -0.03535874669162683
+      ]
+    },
+    {
+      "ci95_lower": -0.0238464393270258,
+      "ci95_upper": 0.004804568279931925,
+      "ci_method": "paired training-seed t interval df=9",
+      "comparison": "td3_minus_ddpg_randomized",
+      "mean": -0.009520935523546938,
+      "scenario_weighting": "equal seven nonnominal scenarios",
+      "seed_count": 10,
+      "seed_sd": 0.020025673455527332,
+      "seed_values": [
+        -0.0103013881303372,
+        0.0029384311114221883,
+        -0.004216446450189224,
+        0.002929649514581578,
+        -0.035374958456472406,
+        0.0010122611785298957,
+        -0.016611339070551814,
+        0.025962794578834967,
+        -0.042566133389210746,
+        -0.018982226122076607
+      ]
+    }
+  ],
+  "joint_shift_learned_objectives": [
+    {
+      "algorithm": "ddpg",
+      "objective": {
+        "ci95_lower": 0.79739163536227,
+        "ci95_upper": 0.8978983780240758,
+        "ci_method": "paired training-seed t interval df=9",
+        "mean": 0.8476450066931729,
+        "seed_count": 10,
+        "seed_sd": 0.07024936910544351,
+        "seed_values": [
+          0.9040556925189921,
+          0.9633901831520704,
+          0.9054224336641992,
+          0.7572339071168213,
+          0.7595029288507801,
+          0.8162452372595786,
+          0.8960627640564769,
+          0.7953261258582602,
+          0.805272695417758,
+          0.8739380990367942
+        ]
+      },
+      "regime": "nominal"
+    },
+    {
+      "algorithm": "ddpg",
+      "objective": {
+        "ci95_lower": 0.7828190925905523,
+        "ci95_upper": 0.9281442325900018,
+        "ci_method": "paired training-seed t interval df=9",
+        "mean": 0.855481662590277,
+        "seed_count": 10,
+        "seed_sd": 0.10157526878046119,
+        "seed_values": [
+          0.8487724724345672,
+          0.7609692455730775,
+          0.7928450756250417,
+          0.7424238972027721,
+          0.9680558191369836,
+          0.776146558842516,
+          1.004818369194552,
+          0.7765128687155466,
+          0.9903662386469156,
+          0.8939060805307979
+        ]
+      },
+      "regime": "randomized"
+    },
+    {
+      "algorithm": "td3",
+      "objective": {
+        "ci95_lower": 0.7798606498325853,
+        "ci95_upper": 0.8406086422000256,
+        "ci_method": "paired training-seed t interval df=9",
+        "mean": 0.8102346460163055,
+        "seed_count": 10,
+        "seed_sd": 0.042459918859321454,
+        "seed_values": [
+          0.9137277890246682,
+          0.7839164487027251,
+          0.8371026699775476,
+          0.8268383205916654,
+          0.7929785340318039,
+          0.767734106073668,
+          0.7713915412834251,
+          0.8069718037643252,
+          0.8043518330198167,
+          0.7973334136934112
+        ]
+      },
+      "regime": "nominal"
+    },
+    {
+      "algorithm": "td3",
+      "objective": {
+        "ci95_lower": 0.743727661058819,
+        "ci95_upper": 0.8521099520696906,
+        "ci_method": "paired training-seed t interval df=9",
+        "mean": 0.7979188065642548,
+        "seed_count": 10,
+        "seed_sd": 0.07575399783212418,
+        "seed_values": [
+          0.8040772457662022,
+          0.80392990988878,
+          0.7278700690708333,
+          0.7579325589249742,
+          0.7507441704214844,
+          0.7394706375451199,
+          0.9236206231628252,
+          0.9416750487197678,
+          0.7451376674122895,
+          0.7847301347302709
+        ]
+      },
+      "regime": "randomized"
+    }
+  ],
+  "nominal_and_joint_baselines": [
+    {
+      "episodes": 1024,
+      "method": "twap",
+      "metrics": {
+        "holding_risk_penalty": 0.3087499999999999,
+        "impact_cost": 0.10218247300472316,
+        "implementation_shortfall": 0.09962102443022924,
+        "maximum_trade": 0.05000000000000001,
+        "objective": 0.41093247300472313,
+        "price_slippage": -0.0025614485744939255
+      },
+      "scenario": "nominal",
+      "trained_seed_count": 0
+    },
+    {
+      "episodes": 1024,
+      "method": "ac_nominal",
+      "metrics": {
+        "holding_risk_penalty": 0.1315488779213428,
+        "impact_cost": 0.1653727602715669,
+        "implementation_shortfall": 0.16244534913845685,
+        "maximum_trade": 0.14668037230636205,
+        "objective": 0.2969216381929097,
+        "price_slippage": -0.0029274111331100703
+      },
+      "scenario": "nominal",
+      "trained_seed_count": 0
+    },
+    {
+      "episodes": 1024,
+      "method": "twap",
+      "metrics": {
+        "holding_risk_penalty": 0.3087499999999999,
+        "impact_cost": 0.42576030418634647,
+        "implementation_shortfall": 0.42319885561185255,
+        "maximum_trade": 0.05000000000000001,
+        "objective": 0.7345103041863463,
+        "price_slippage": -0.0025614485744939255
+      },
+      "scenario": "joint_shift",
+      "trained_seed_count": 0
+    },
+    {
+      "episodes": 1024,
+      "method": "ac_nominal",
+      "metrics": {
+        "holding_risk_penalty": 0.1315488779213428,
+        "impact_cost": 0.8436043297318316,
+        "implementation_shortfall": 0.8406769185987215,
+        "maximum_trade": 0.14668037230636205,
+        "objective": 0.9751532076531745,
+        "price_slippage": -0.0029274111331100703
+      },
+      "scenario": "joint_shift",
+      "trained_seed_count": 0
+    }
+  ],
+  "nominal_learned_mean_range": [
+    0.29819957179942236,
+    0.29985467218595746
+  ],
+  "nominal_learned_objectives": [
+    {
+      "algorithm": "ddpg",
+      "objective": {
+        "ci95_lower": 0.2974839985934381,
+        "ci95_upper": 0.29972556419990837,
+        "ci_method": "paired training-seed t interval df=9",
+        "mean": 0.29860478139667324,
+        "seed_count": 10,
+        "seed_sd": 0.0015667463246009407,
+        "seed_values": [
+          0.29684764911939654,
+          0.3004130891290538,
+          0.29655068411813146,
+          0.2988581440907132,
+          0.29713245466078597,
+          0.29959781761643345,
+          0.29858131821668743,
+          0.2994729268747331,
+          0.29748231364293154,
+          0.30111141649786594
+        ]
+      },
+      "regime": "nominal"
+    },
+    {
+      "algorithm": "ddpg",
+      "objective": {
+        "ci95_lower": 0.2983404943015976,
+        "ci95_upper": 0.30136885007031733,
+        "ci_method": "paired training-seed t interval df=9",
+        "mean": 0.29985467218595746,
+        "seed_count": 10,
+        "seed_sd": 0.002116674727935842,
+        "seed_values": [
+          0.2991494734509606,
+          0.3025686704262982,
+          0.299327465214166,
+          0.2980804637647959,
+          0.29725029834945754,
+          0.2985145922434965,
+          0.3015081500017359,
+          0.2976151487028903,
+          0.30299927156552586,
+          0.30153318814024754
+        ]
+      },
+      "regime": "randomized"
+    },
+    {
+      "algorithm": "td3",
+      "objective": {
+        "ci95_lower": 0.29767564048728473,
+        "ci95_upper": 0.2992677892683319,
+        "ci_method": "paired training-seed t interval df=9",
+        "mean": 0.2984717148778083,
+        "seed_count": 10,
+        "seed_sd": 0.001112835262873099,
+        "seed_values": [
+          0.2981228454806243,
+          0.29878518695055456,
+          0.2974501193534878,
+          0.29923948738213174,
+          0.29692589946965253,
+          0.30000013200724174,
+          0.2980700367845027,
+          0.2984393720319409,
+          0.30027908810990245,
+          0.2974049812080452
+        ]
+      },
+      "regime": "nominal"
+    },
+    {
+      "algorithm": "td3",
+      "objective": {
+        "ci95_lower": 0.29736667620331264,
+        "ci95_upper": 0.2990324673955321,
+        "ci_method": "paired training-seed t interval df=9",
+        "mean": 0.29819957179942236,
+        "seed_count": 10,
+        "seed_sd": 0.001164307759018531,
+        "seed_values": [
+          0.29686375776633744,
+          0.2981810744560076,
+          0.29908222215175495,
+          0.2974548751728848,
+          0.29614780269155544,
+          0.29872780880934435,
+          0.29959676284430936,
+          0.29778201502152124,
+          0.2997570436392734,
+          0.2984023554412345
+        ]
+      },
+      "regime": "randomized"
+    }
+  ],
+  "nominal_td3_randomized_baseline_contrasts": [
+    {
+      "ci95_lower": -0.11356579680141052,
+      "ci95_upper": -0.11190000560919108,
+      "ci_method": "paired training-seed t interval df=9",
+      "comparator": "twap",
+      "mean": -0.1127329012053008,
+      "metric": "objective",
+      "relative_percent": -27.4334370270137,
+      "relative_percent_denominator": 0.41093247300472313,
+      "scenario": "nominal",
+      "seed_count": 10,
+      "seed_sd": 0.001164307759018531,
+      "seed_values": [
+        -0.11406871523838569,
+        -0.11275139854871552,
+        -0.11185025085296818,
+        -0.1134775978318383,
+        -0.11478467031316769,
+        -0.11220466419537878,
+        -0.11133571016041377,
+        -0.11315045798320189,
+        -0.11117542936544972,
+        -0.11253011756348863
+      ],
+      "treatment": "td3_randomized"
+    },
+    {
+      "ci95_lower": 0.00044503801040292367,
+      "ci95_upper": 0.002110829202622352,
+      "ci_method": "paired training-seed t interval df=9",
+      "comparator": "ac_nominal",
+      "mean": 0.0012779336065126378,
+      "metric": "objective",
+      "relative_percent": 0.43039423273098265,
+      "relative_percent_denominator": 0.2969216381929097,
+      "scenario": "nominal",
+      "seed_count": 10,
+      "seed_sd": 0.001164307759018531,
+      "seed_values": [
+        -5.7880426572232135e-05,
+        0.001259436263097935,
+        0.0021605839588452747,
+        0.0005332369799751491,
+        -0.0007738355013542364,
+        0.001806170616434677,
+        0.002675124651399685,
+        0.0008603768286115643,
+        0.002835405446363737,
+        0.0014807172483248254
+      ],
+      "treatment": "td3_randomized"
+    }
+  ],
+  "nonnominal_regime_directions": [
+    {
+      "algorithm": "ddpg",
+      "lower_mean_regime": "nominal",
+      "nominal_mean": 0.46500781001012415,
+      "randomized_mean": 0.4684793710228109,
+      "randomized_minus_nominal": 0.0034715610126867524,
+      "scenario": "high_impact"
+    },
+    {
+      "algorithm": "ddpg",
+      "lower_mean_regime": "nominal",
+      "nominal_mean": 0.21540326708994778,
+      "randomized_mean": 0.2155423227675307,
+      "randomized_minus_nominal": 0.0001390556775829055,
+      "scenario": "low_impact"
+    },
+    {
+      "algorithm": "ddpg",
+      "lower_mean_regime": "nominal",
+      "nominal_mean": 0.27546796396563544,
+      "randomized_mean": 0.2760533583011432,
+      "randomized_minus_nominal": 0.0005853943355077496,
+      "scenario": "concave_impact"
+    },
+    {
+      "algorithm": "ddpg",
+      "lower_mean_regime": "nominal",
+      "nominal_mean": 0.3279472869679692,
+      "randomized_mean": 0.3299735006376587,
+      "randomized_minus_nominal": 0.0020262136696894695,
+      "scenario": "convex_impact"
+    },
+    {
+      "algorithm": "ddpg",
+      "lower_mean_regime": "randomized",
+      "nominal_mean": 0.5344791830241147,
+      "randomized_mean": 0.4621967698308679,
+      "randomized_minus_nominal": -0.0722824131932468,
+      "scenario": "thin_liquidity"
+    },
+    {
+      "algorithm": "ddpg",
+      "lower_mean_regime": "nominal",
+      "nominal_mean": 0.8476450066931729,
+      "randomized_mean": 0.855481662590277,
+      "randomized_minus_nominal": 0.007836655897104139,
+      "scenario": "joint_shift"
+    },
+    {
+      "algorithm": "ddpg",
+      "lower_mean_regime": "nominal",
+      "nominal_mean": 0.2404397704335693,
+      "randomized_mean": 0.24057714364695743,
+      "randomized_minus_nominal": 0.00013737321338813668,
+      "scenario": "high_liquidity"
+    },
+    {
+      "algorithm": "td3",
+      "lower_mean_regime": "randomized",
+      "nominal_mean": 0.46706520332750456,
+      "randomized_mean": 0.46339758951192633,
+      "randomized_minus_nominal": -0.00366761381557823,
+      "scenario": "high_impact"
+    },
+    {
+      "algorithm": "td3",
+      "lower_mean_regime": "nominal",
+      "nominal_mean": 0.21417497065296032,
+      "randomized_mean": 0.21560056294317026,
+      "randomized_minus_nominal": 0.0014255922902099427,
+      "scenario": "low_impact"
+    },
+    {
+      "algorithm": "td3",
+      "lower_mean_regime": "nominal",
+      "nominal_mean": 0.27473713416810003,
+      "randomized_mean": 0.2754662873988029,
+      "randomized_minus_nominal": 0.0007291532307028836,
+      "scenario": "concave_impact"
+    },
+    {
+      "algorithm": "td3",
+      "lower_mean_regime": "randomized",
+      "nominal_mean": 0.3285563082049392,
+      "randomized_mean": 0.32709646276939625,
+      "randomized_minus_nominal": -0.0014598454355429502,
+      "scenario": "convex_impact"
+    },
+    {
+      "algorithm": "td3",
+      "lower_mean_regime": "nominal",
+      "nominal_mean": 0.4513987666732218,
+      "randomized_mean": 0.46192104638578185,
+      "randomized_minus_nominal": 0.010522279712560034,
+      "scenario": "thin_liquidity"
+    },
+    {
+      "algorithm": "td3",
+      "lower_mean_regime": "randomized",
+      "nominal_mean": 0.8102346460163055,
+      "randomized_mean": 0.7979188065642548,
+      "randomized_minus_nominal": -0.012315839452050614,
+      "scenario": "joint_shift"
+    },
+    {
+      "algorithm": "td3",
+      "lower_mean_regime": "nominal",
+      "nominal_mean": 0.24009407083735396,
+      "randomized_mean": 0.24025682455908481,
+      "randomized_minus_nominal": 0.00016275372173085723,
+      "scenario": "high_liquidity"
+    }
+  ],
+  "primary_and_regime_comparisons": [
+    {
+      "ci95_lower": -0.025266828040954325,
+      "ci95_upper": 0.008670782501729268,
+      "ci_method": "paired training-seed t interval df=9",
+      "comparator_mean": 0.41519861259779056,
+      "comparator_seed_values": [
+        0.41089293555208556,
+        0.4225508214595536,
+        0.4297099124757357,
+        0.38926173947889176,
+        0.3987446575550154,
+        0.40082170762982167,
+        0.4761896490506848,
+        0.39469455197501035,
+        0.3990590079271543,
+        0.4300611428739519
+      ],
+      "comparison": "ddpg_randomized_minus_nominal",
+      "interval_includes_zero": true,
+      "mean": -0.008298022769612529,
+      "negative_difference_means": "lower risk-adjusted simulation objective",
+      "primary": false,
+      "relative_percent": -1.9985670755723246,
+      "relative_percent_denominator": 0.41519861259779056,
+      "scenario_weighting": "equal over seven prespecified nonnominal scenarios",
+      "seed_count": 10,
+      "seed_sd": 0.023720754114895454,
+      "seed_values": [
+        -0.0055432941350045395,
+        -0.02953649094009858,
+        -0.03405867993405165,
+        -0.00026458880278734664,
+        0.02337573965992562,
+        -0.007329469001809197,
+        -0.041895068519558265,
+        -0.0034498961232083958,
+        0.0323415212792722,
+        -0.016620001178805133
+      ],
+      "treatment_mean": 0.40690058982817795,
+      "treatment_seed_values": [
+        0.405349641417081,
+        0.393014330519455,
+        0.39565123254168405,
+        0.3889971506761044,
+        0.42212039721494105,
+        0.39349223862801247,
+        0.4342945805311265,
+        0.39124465585180196,
+        0.4314005292064265,
+        0.4134411416951468
+      ]
+    },
+    {
+      "ci95_lower": -0.010569506907769682,
+      "ci95_upper": 0.009254215551207371,
+      "ci_method": "paired training-seed t interval df=9",
+      "comparator_mean": 0.3980372999829122,
+      "comparator_seed_values": [
+        0.41305612545052306,
+        0.39396941100976784,
+        0.4024827031728201,
+        0.40019251180550214,
+        0.39364106204508786,
+        0.39178750740022483,
+        0.3913195114561086,
+        0.39896011489766225,
+        0.4002616564091003,
+        0.39470239618232494
+      ],
+      "comparison": "td3_randomized_minus_nominal",
+      "interval_includes_zero": true,
+      "mean": -0.0006576456782811547,
+      "negative_difference_means": "lower risk-adjusted simulation objective",
+      "primary": true,
+      "relative_percent": -0.16522212323050814,
+      "relative_percent_denominator": 0.3980372999829122,
+      "scenario_weighting": "equal over seven prespecified nonnominal scenarios",
+      "seed_count": 10,
+      "seed_sd": 0.013855826576237854,
+      "seed_values": [
+        -0.018007872163779248,
+        0.001983350621109381,
+        -0.011047917081325243,
+        -0.008265711614816096,
+        -0.00689562328661919,
+        0.0027169924063174533,
+        0.026363730004466013,
+        0.01824733553297475,
+        -0.011427260591884592,
+        -0.00024348060925477588
+      ],
+      "treatment_mean": 0.39737965430463096,
+      "treatment_seed_values": [
+        0.3950482532867438,
+        0.3959527616308772,
+        0.39143478609149485,
+        0.39192680019068604,
+        0.3867454387584687,
+        0.3945044998065423,
+        0.4176832414605746,
+        0.417207450430637,
+        0.3888343958172157,
+        0.39445891557307017
+      ]
+    }
+  ],
+  "runtime": {
+    "cuda_used": false,
+    "executed_utc": "2026-10-10T18:59:33.822300+00:00",
+    "numpy": "1.15.1",
+    "platform": "Windows-10-10.0.26100-SP0",
+    "processor": "Intel64 Family 6 Model 198 Stepping 2, GenuineIntel",
+    "python": "3.6.6 (v3.6.6:4cf1f54eb7, Jun 27 2018, 03:37:03) [MSC v.1900 64 bit (AMD64)]",
+    "python_executable": "C:\\Users\\ayush\\Desktop\\Research Papers\\Deep Actor\u2013Critic Methods for Optimal Trade Execution Under Uncertain Market Impact\\runtime\\python366\\python.exe",
+    "python_sha256": "7a233a36807ddf6d01fc9dcf21ead88674777a1fad03f15a0abd4f0a90ee8b7c",
+    "runtime_manifest_sha256": "b57bd901f169c273b45f3a79f7e07f15ffd4bc0d19f8e0c655115d2e6f79d183",
+    "torch": "0.4.1",
+    "torch_threads": 24
+  },
+  "source_sha256": "954a732902f369c933c4f517ca86ed4f88195c4113a1864b9eb2e0357e49e7c4",
+  "training_runs": 40,
+  "training_seed_count": 10,
+  "training_transitions": 800000,
+  "unique_episode_evaluations": 344064
+}

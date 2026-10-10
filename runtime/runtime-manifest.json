@@ -1,0 +1,84 @@
+{
+  "created_utc": "2026-10-04T08:30:23.713341+00:00",
+  "role": "present-day administrative acquisition of pre-cutoff scientific runtime",
+  "records": [
+    {
+      "url": "https://www.python.org/downloads/release/python-366/",
+      "path": "runtime\\downloads\\python-release.html",
+      "bytes": 48330,
+      "sha256": "0b3d4dfb4341c2ffdfae75f0046d629da0ae0194c4ec53b5526b201064bda5c9",
+      "retrieved_or_checked_utc": "2026-10-04T08:30:10.304246+00:00"
+    },
+    {
+      "url": "https://www.python.org/ftp/python/3.6.6/python-3.6.6-embed-amd64.zip",
+      "path": "runtime\\downloads\\python-3.6.6-embed-amd64.zip",
+      "bytes": 7186734,
+      "sha256": "d294ed2a18bb2fb822a1be346af79a48980eb0d3d5f209cf9e728e93883b565a",
+      "retrieved_or_checked_utc": "2026-10-04T08:30:10.308877+00:00",
+      "name": "Python",
+      "version": "3.6.6",
+      "public_date": "2018-06-27",
+      "date_evidence_url": "https://www.python.org/downloads/release/python-366/",
+      "expected_md5": "7148ec14edfdc13f42e06a14d617c921"
+    },
+    {
+      "url": "https://pypi.org/pypi/numpy/1.15.1/json",
+      "path": "runtime\\downloads\\numpy-pypi.json",
+      "bytes": 31927,
+      "sha256": "7cc2d02094e027614303c7311ad235f0f0ebb09f15e86b16328db69b61b3bd9e",
+      "retrieved_or_checked_utc": "2026-10-04T08:30:10.388006+00:00"
+    },
+    {
+      "url": "https://files.pythonhosted.org/packages/fb/7d/f8b97d97809f184d90faf320fa8e2e7eac994844c5e6c57adbed1283e9e9/numpy-1.15.1-cp36-none-win_amd64.whl",
+      "path": "runtime\\downloads\\numpy-1.15.1-cp36-none-win_amd64.whl",
+      "bytes": 13509751,
+      "sha256": "c81a6afc1d2531a9ada50b58f8c36197f8418ef3d0611d4c1d7af93fdcda764f",
+      "retrieved_or_checked_utc": "2026-10-04T08:30:10.394858+00:00",
+      "name": "numpy",
+      "version": "1.15.1",
+      "public_date": "2018-08-21",
+      "date_evidence_url": "https://pypi.org/pypi/numpy/1.15.1/json",
+      "expected_sha256": "c81a6afc1d2531a9ada50b58f8c36197f8418ef3d0611d4c1d7af93fdcda764f"
+    },
+    {
+      "url": "https://api.github.com/repos/pytorch/pytorch/releases/tags/v0.4.1",
+      "path": "runtime\\downloads\\torch-release.json",
+      "bytes": 24138,
+      "sha256": "45bbbee149fe3f358054c8675e6e36965b75f8621775a73110403931f2090cd8",
+      "retrieved_or_checked_utc": "2026-10-04T08:30:11.271139+00:00"
+    },
+    {
+      "url": "https://pytorch.org/get-started/previous-versions/",
+      "path": "runtime\\downloads\\torch-previous-versions.html",
+      "bytes": 347553,
+      "sha256": "a8ec4ca0b5fa854b60417f6df766514735307d31360981193c058abbf684e11d",
+      "retrieved_or_checked_utc": "2026-10-04T08:30:11.692530+00:00"
+    },
+    {
+      "url": "https://download.pytorch.org/whl/cpu/torch-0.4.1-cp36-cp36m-win_amd64.whl",
+      "path": "runtime\\downloads\\torch-0.4.1-cp36-cp36m-win_amd64.whl",
+      "bytes": 55851133,
+      "sha256": "df0e22c9fcc340a4c98a0466cfa16739d656a6f81b2e4e48a606fcd5b4d17846",
+      "retrieved_or_checked_utc": "2026-10-04T08:30:14.762995+00:00",
+      "name": "torch",
+      "version": "0.4.1",
+      "public_date": "2018-07-26",
+      "date_evidence_url": "https://api.github.com/repos/pytorch/pytorch/releases/tags/v0.4.1",
+      "expected_sha256": null
+    }
+  ],
+  "smoke_command": [
+    "C:\\Users\\ayush\\Desktop\\Research Papers\\Deep Actor\u2013Critic Methods for Optimal Trade Execution Under Uncertain Market Impact\\runtime\\python366\\python.exe",
+    "-c",
+    "import sys,numpy,torch; print(sys.version); print(numpy.__version__); print(torch.__version__); print(torch.tensor([1.,2.]).sum().item())"
+  ],
+  "smoke_exit_code": 0,
+  "smoke_stdout": "3.6.6 (v3.6.6:4cf1f54eb7, Jun 27 2018, 03:37:03) [MSC v.1900 64 bit (AMD64)]\n1.15.1\n0.4.1\n3.0\n",
+  "smoke_stderr": "",
+  "system_packages_modified": false,
+  "scientific_dependencies": [
+    "Python 3.6.6",
+    "NumPy 1.15.1",
+    "PyTorch 0.4.1"
+  ]
+}

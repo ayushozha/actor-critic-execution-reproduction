@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "Please cite this code and synthetic-data package when using it."
+title: "Deep Actor–Critic Methods for Optimal Trade Execution Under Uncertain Market Impact Reproduction Package"
+type: software
+version: "1.0.0"
+repository-code: "https://github.com/ayushozha/actor-critic-execution-reproduction"
+authors:
+  - family-names: "Ojha"
+    given-names: "Ayush"
+    orcid: "https://orcid.org/0009-0001-9404-4930"

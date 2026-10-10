@@ -1,0 +1,38 @@
+{
+  "code_sha256": "ecd828776203c5d842e83131139ae766254d8744b4ff2386e323beaca18b2841",
+  "configuration_sha256": "dffac8868ef65f11141c8e251ad971cbe5704efdbd45233b911fd6f08ccd214f",
+  "elapsed_seconds": 2.706226110458374,
+  "finished_utc": "2026-10-10T18:58:22.919619+00:00",
+  "inputs": [
+    {
+      "path": "experiments-10seed\\evaluation\\raw-episodes.csv",
+      "sha256": "e990367edd1bd4bf77769b8a2774815d551e5bc649c3ee2ab303c825beea7660"
+    },
+    {
+      "path": "experiments/evaluation/seed-means.json",
+      "sha256": "2d494d1eeb5feb1ca9f643cf29a0371af9e5e4649227c768b5fb1b66dd7f1621"
+    }
+  ],
+  "new_training_or_tuning_performed": false,
+  "outputs": [
+    {
+      "path": "experiments/analysis-summary.json",
+      "sha256": "954a732902f369c933c4f517ca86ed4f88195c4113a1864b9eb2e0357e49e7c4"
+    }
+  ],
+  "result": "completed",
+  "runtime": {
+    "cuda_used": false,
+    "executed_utc": "2026-10-10T18:58:22.919619+00:00",
+    "numpy": "1.15.1",
+    "platform": "Windows-10-10.0.26100-SP0",
+    "processor": "Intel64 Family 6 Model 198 Stepping 2, GenuineIntel",
+    "python": "3.6.6 (v3.6.6:4cf1f54eb7, Jun 27 2018, 03:37:03) [MSC v.1900 64 bit (AMD64)]",
+    "python_executable": "C:\\Users\\ayush\\Desktop\\Research Papers\\Deep Actor\u2013Critic Methods for Optimal Trade Execution Under Uncertain Market Impact\\runtime\\python366\\python.exe",
+    "python_sha256": "7a233a36807ddf6d01fc9dcf21ead88674777a1fad03f15a0abd4f0a90ee8b7c",
+    "runtime_manifest_sha256": "b57bd901f169c273b45f3a79f7e07f15ffd4bc0d19f8e0c655115d2e6f79d183",
+    "torch": "0.4.1",
+    "torch_threads": 24
+  },
+  "started_utc": "2026-10-10T18:58:20.213393+00:00"
+}

@@ -1,0 +1,10 @@
+{
+  "title": "Deep Actor\u2013Critic Methods for Optimal Trade Execution Under Uncertain Market Impact Reproduction Package",
+  "author": "Ayush Ojha",
+  "orcid": "https://orcid.org/0009-0001-9404-4930",
+  "version": "1.0.0",
+  "repository_target": "https://github.com/ayushozha/actor-critic-execution-reproduction",
+  "recorded_utc": "2026-10-10T19:02:29.758178+00:00",
+  "release_state": "prepared, not yet public",
+  "scope": "code and synthetic data only; manuscript excluded"
+}

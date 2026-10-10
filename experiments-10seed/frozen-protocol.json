@@ -1,0 +1,155 @@
+{
+  "config": {
+    "action_urgency_cap": 3.0,
+    "actor_learning_rate": 0.001,
+    "algorithms": [
+      "ddpg",
+      "td3"
+    ],
+    "batch_size": 64,
+    "checkpoint_intervals": 5000,
+    "critic_learning_rate": 0.001,
+    "discount": 1.0,
+    "domain_alpha_range": [
+      0.8,
+      1.2
+    ],
+    "domain_eta_range": [
+      0.05,
+      0.2
+    ],
+    "domain_liquidity_range": [
+      0.75,
+      1.25
+    ],
+    "evaluation_episodes_per_scenario": 1024,
+    "evaluation_seed": 90210,
+    "exploration_noise_sd": 0.15,
+    "hidden_width": 64,
+    "horizon": 1.0,
+    "initial_inventory": 1.0,
+    "knowledge_cutoff_exclusive": "2018-09-20",
+    "liquidity_innovation_sd": 0.1,
+    "liquidity_rho": 0.8,
+    "nominal_alpha": 1.0,
+    "nominal_eta": 0.1,
+    "nominal_liquidity": 1.0,
+    "protocol_id": "execution-impact-2018-v1",
+    "regimes": [
+      "nominal",
+      "randomized"
+    ],
+    "replay_capacity": 20000,
+    "reward_scale": 10.0,
+    "risk_aversion": 25.0,
+    "scenarios": [
+      {
+        "alpha": 1.0,
+        "eta": 0.1,
+        "liquidity": 1.0,
+        "name": "nominal"
+      },
+      {
+        "alpha": 1.0,
+        "eta": 0.2,
+        "liquidity": 1.0,
+        "name": "high_impact"
+      },
+      {
+        "alpha": 1.0,
+        "eta": 0.05,
+        "liquidity": 1.0,
+        "name": "low_impact"
+      },
+      {
+        "alpha": 0.75,
+        "eta": 0.1,
+        "liquidity": 1.0,
+        "name": "concave_impact"
+      },
+      {
+        "alpha": 1.25,
+        "eta": 0.1,
+        "liquidity": 1.0,
+        "name": "convex_impact"
+      },
+      {
+        "alpha": 1.0,
+        "eta": 0.1,
+        "liquidity": 0.5,
+        "name": "thin_liquidity"
+      },
+      {
+        "alpha": 1.3,
+        "eta": 0.25,
+        "liquidity": 0.6,
+        "name": "joint_shift"
+      },
+      {
+        "alpha": 1.0,
+        "eta": 0.1,
+        "liquidity": 1.5,
+        "name": "high_liquidity"
+      }
+    ],
+    "sigma": 0.2,
+    "steps": 20,
+    "target_tau": 0.005,
+    "td3_policy_delay": 2,
+    "td3_target_noise_clip": 0.5,
+    "td3_target_noise_sd": 0.2,
+    "training_seeds": [
+      11,
+      23,
+      37,
+      53,
+      71,
+      89,
+      107,
+      127,
+      149,
+      173
+    ],
+    "training_transitions": 20000,
+    "warmup_transitions": 1000
+  },
+  "files": [
+    {
+      "path": "experiments-10seed\\config.json",
+      "sha256": "dffac8868ef65f11141c8e251ad971cbe5704efdbd45233b911fd6f08ccd214f"
+    },
+    {
+      "path": "experiments-10seed\\PROTOCOL.md",
+      "sha256": "bdbe48d56ff4e9db8468309b14ce051a39df54199eff067f73501171f21d9fb5"
+    },
+    {
+      "path": "experiments-10seed\\execution_study.py",
+      "sha256": "d684e0c8b79caa57dc63cb6916d745cadcd027f685873ef49338b228eab1ac11"
+    },
+    {
+      "path": "runtime\\runtime-manifest.json",
+      "sha256": "b57bd901f169c273b45f3a79f7e07f15ffd4bc0d19f8e0c655115d2e6f79d183"
+    }
+  ],
+  "frozen_utc": "2026-10-10T18:56:06.355113+00:00",
+  "pre_run_heldout_evaluation_performed": false,
+  "runtime": {
+    "cuda_used": false,
+    "executed_utc": "2026-10-10T18:56:06.355113+00:00",
+    "numpy": "1.15.1",
+    "platform": "Windows-10-10.0.26100-SP0",
+    "processor": "Intel64 Family 6 Model 198 Stepping 2, GenuineIntel",
+    "python": "3.6.6 (v3.6.6:4cf1f54eb7, Jun 27 2018, 03:37:03) [MSC v.1900 64 bit (AMD64)]",
+    "python_executable": "C:\\Users\\ayush\\Desktop\\Research Papers\\Deep Actor\u2013Critic Methods for Optimal Trade Execution Under Uncertain Market Impact\\runtime\\python366\\python.exe",
+    "python_sha256": "7a233a36807ddf6d01fc9dcf21ead88674777a1fad03f15a0abd4f0a90ee8b7c",
+    "runtime_manifest_sha256": "b57bd901f169c273b45f3a79f7e07f15ffd4bc0d19f8e0c655115d2e6f79d183",
+    "torch": "0.4.1",
+    "torch_threads": 1
+  },
+  "scientific_sources": [
+    "lillicrap2016ddpg",
+    "fujimoto2018td3",
+    "arxiv_1403_2229",
+    "arxiv_1412_4839"
+  ]
+}
